@@ -1,0 +1,17 @@
+.flexivel{
+    display:flex;
+    flex-wrap: wrap;
+}
+.card{
+    flex: 1 1 200px;
+    background-color: cornsilk;
+    border-radius: 5pt;
+    margin: 5px;
+    padding: 5px;
+}
+.card:hover{
+    flex: 1 1 300px;
+    background-color: rgb(228, 3, 3);
+    transition: 1s;
+    color: hwb(0 68% 0% / 0.997);
+}
